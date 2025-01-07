@@ -1,0 +1,91 @@
+*{
+    background-image: url("../../src/assets/C.jpg");
+    background-attachment: fixed;
+  background-size: cover; /* Ensures the image covers the entire screen */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center; /* Centers the image */
+ 
+  /* width: 1400px;
+  height: 850px;
+  gap: 0px; */
+  opacity: .7px;
+  background-blend-mode: overlay;
+  text-align: center;
+}
+.form-content{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;    
+    margin-top: 100px;
+        }
+
+    .Left{
+        width: 369px;
+        height: 318px;
+        top: 216px;
+        left: 216px;
+        gap: 0px;
+        opacity: 0px;
+        
+    }
+    .Right{
+       background-color: #FFFFFF;
+       border: 1px solid gray;
+    width: 470px;
+    height: 550px;
+    top: 100px;
+    left: 715px;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 10px;
+        
+    }
+    hr{
+        width: 100px;
+    }
+    .heading1{
+    
+        font-family: DM Sans;
+        font-size: 72px;
+        font-weight: 700;
+        line-height: 86px;
+        letter-spacing: -1px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF;
+        
+        }
+        .form-control{
+  display: flex;
+ flex-direction: column;
+  margin-top: 20px;
+ }
+
+form{
+display: flex;
+flex-direction: column;
+gap:15px;
+
+}
+input{
+    Border-radius: 100px;
+width: 350px;
+height: 50px;
+gap: 0px;
+border-radius: 100px 100px 100px 100px;
+}
+button{
+border-radius: 100px;
+width: 350px;
+height: 50px;
+gap: 0px;
+border-radius: 100px 100px 100px 100px;
+opacity: 0px;
+top: 627px;
+left: 585px;
+gap: 0px;
+opacity: 0px;
+}
+  
