@@ -1,10 +1,10 @@
-*{
+.content{
     background-image: url("../../src/assets/C.jpg");
     background-attachment: fixed;
   background-size: cover; /* Ensures the image covers the entire screen */
   background-repeat: no-repeat; /* Prevents the image from repeating */
   background-position: center; /* Centers the image */
-  background-color:#0d023f;
+  background-color:#5d5582;
   /* width: 1400px;
   height: 850px;
   gap: 0px; */

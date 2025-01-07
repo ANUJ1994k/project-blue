@@ -1,4 +1,4 @@
-*{
+.bg-wrapper{
     background-image: url("../../src/assets/background.jpg");
     background-attachment: fixed;
   background-size: cover; /* Ensures the image covers the entire screen */

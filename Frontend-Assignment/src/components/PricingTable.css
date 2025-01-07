@@ -1,10 +1,43 @@
-*{
+.pricing-table-page{
     background-image: url("../../src/assets/PT.jpg");
+   
+
 }
 
-plan-pricing{
+.plan-pricing{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     text-align: center;
-    border: 1px solid grey;
+    gap:20px;
+    margin: 60px;
+}
+.plan{
+    border: 1px solid gray;
+    border-radius: 10px;
+    
+}
+p{
+    text-align: left;
+    margin-left: 75px;
+    margin-top: 10px;
+}
+button{
+   
+        width: 230px;
+        height: 60px;
+        gap: 0px;
+        border-radius: 100px 100px 100px 100px;
+        opacity: 0px;
+        background-color:none;
+        top: 627px;
+        left: 585px;
+        gap: 0px;
+        opacity: 0px;
+        margin-top: 50px;
+        border: 1px solid;
+        margin-bottom: 50px;
+        
+}
+.pricing-table-page{
+    text-align: center;
 }
